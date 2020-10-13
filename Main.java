@@ -8,6 +8,7 @@ public class Main {
   public static int lastDigit(int userNum){
     int remainder = userNum % 10;
     return remainder;
+    
   }
 
   /**
@@ -23,7 +24,9 @@ public class Main {
     int userNum = input.nextInt();
     //calculate the final number
     int remainder = userNum % 10;
-    System.out.println(remainder);
+    System.out.println(Math.abs(remainder));
+    
+
   }
 }
 
